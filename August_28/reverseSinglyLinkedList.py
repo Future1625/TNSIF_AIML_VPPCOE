@@ -12,7 +12,7 @@ def reverse_list(head):
         next_node = current.next
         current.next = prev
         prev = current
-        current = next_node
+        current = next_node   
     return prev
 
 # Create list: 1 -> 2 -> 3 -> None
